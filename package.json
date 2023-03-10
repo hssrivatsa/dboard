@@ -1,0 +1,28 @@
+{
+  "name": "dboard",
+  "version": "1.0.0",
+  "description": "First Iteration AQMS Dashboard",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hssrivatsa/dboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hssrivatsa/dboard/issues"
+  },
+  "homepage": "https://github.com/hssrivatsa/dboard#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^1.20.1",
+    "request": "^2.88.2",
+    "supertest": "^6.3.3"
+  }
+}
